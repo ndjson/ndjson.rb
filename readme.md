@@ -24,7 +24,7 @@ parser.each { |l| puts l }
 generator = NDJSON::Generator.new( 'test.file' )
 
 generator.write({:hello => "world"})
-generator.write({:noob => "what"}
+generator.write({:noob => "what"})
 ```
 
 
