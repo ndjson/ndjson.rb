@@ -34,5 +34,8 @@ module NDJSON
       @output.puts JSON.generate(obj)
     end
 
+    def flush
+      @output.flush
+    end
   end
 end
