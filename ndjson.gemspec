@@ -8,5 +8,8 @@ Gem::Specification.new do |s|
   s.email       = 'derfinn@gmail.com'
   s.files       = ['lib/ndjson.rb']
   s.homepage    = 'https://github.com/ndjson/ndjson.rb'
-  s.license       = 'MIT'
+  s.license     = 'MIT'
+
+  s.add_development_dependency "minitest"
+  s.add_development_dependency "rake"
 end
