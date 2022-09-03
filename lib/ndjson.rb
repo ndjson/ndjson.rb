@@ -12,6 +12,8 @@ module NDJSON
       end
     end
 
+    include Enumerable
+
     def each &block
       @input.each do |line|
         json_line = JSON.parse(line)
